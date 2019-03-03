@@ -42,7 +42,7 @@ Installation:
 6) to stop undefined variable errors in the RPT add to your custom variables.sqf inside dayz_resetSelfActions = {:
 
 	s_player_mining = -1;</br>
-	s_player_mine = -1;
+	s_player_mine = -1;</br>
 DONE!
  
 From that point you should just have to go to the giant rock tower and mine. The rock tower is just for looks since i didnt want people to be able to mine at them all i put an object(BeltBuckle_DZE) in the middle to trigger the start mining scroll option. So to add more just put the belt buckle somewhere and drop a rock tower over top of it.
