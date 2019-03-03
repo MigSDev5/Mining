@@ -1,9 +1,16 @@
+Mining 1.2 
+credits : Vindomire
+
+Link original post:
+ https://epochmod.com/forum/topic/15055-release-mining-12-updated-08062014/
+
 What this does:
+
 If you have a Toolbox and a Sledge, you go to where the nodes are and if your 15m from the activiation object you get a start mining option. The script will then loop on a 10 second timer collecting iron ore, silver ore, gold ore, and rarely gems. Since my server uses gems as a higher currency this would be the draw to these sites. It will loop until your inventory is full then you start it all over again.
  
 Installation:
  
-1) Download https://dl.dropboxusercontent.com/u/14198394/mining.zip and unzip into your mission pbo/custom directory
+1) place the mining folder into your mission pbo/custom directory
  
 2) Add to init.sqf:     [] execVM 'custom\mining\init.sqf';﻿     //Added for Mining in the if (!isDedicated) then { section
  
@@ -26,7 +33,7 @@ Installation:
                         type="mil_dot";
                         colorName="ColorBlack";
 		};
-4) Download https://dl.dropboxusercontent.com/u/14198394/mining.sqf and place it in whatever folder you put your custom map additions in the server pbo
+4) Place mining.sqf  in whatever folder you put your custom map additions in the server pbo
  
 5) add to the end of init\server_functions in server pbo:
 
@@ -42,7 +49,6 @@ From that point you should just have to go to the giant rock tower and mine. The
  
 This is the first script i have made for release so hopefully the install instructions are good. :)
  
-
 Version 1.1 Uploaded 08/04/2014 (download and replace your mining\init.sqf and mining\start.sqf):
 
 New requirement to have sledgehammer as primary weapon
@@ -62,8 +68,6 @@ check to make sure your looking at the rockwall. Cancels mining if you look away
 closes inventory if opened
 minor little formatting and undefined variable fixes
 *** Special Thanks to hogscraper for the animation change, sledge as primary(including fix), movement cancellation, proper inventory handling, close inventory and change to the notification handling.
-
- 
 
 Known Issue (removed for all new downloads):
 
