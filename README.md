@@ -41,7 +41,7 @@ Installation:
 	[] execVM "z\addons\dayz_server\<CUSTOM FOLDER NAME>\mining.sqf";﻿
 6) to stop undefined variable errors in the RPT add to your custom variables.sqf inside dayz_resetSelfActions = {:
 
-	s_player_mining = -1;
+	s_player_mining = -1;</br>
 	s_player_mine = -1;
 DONE!
  
